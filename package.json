@@ -1,0 +1,18 @@
+{
+  "name": "mongoconnection",
+  "version": "1.0.0",
+  "description": "learning mern",
+  "main": "src",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Akash Soni",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}
