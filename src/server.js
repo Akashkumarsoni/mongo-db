@@ -6,7 +6,8 @@ const userRoutes = require('./routes/userRoutes');
 // To use JSON data
 app.use(express.json());
 app.use(userRoutes)
-const url = `mongodb+srv://aakashkumarsoni0786:CrudOperation@123@crud-oprn.a34mk4f.mongodb.net/?retryWrites=true&w=majority&appName=crud-oprn`;
+const url = 
+`mongodb+srv://aakashkumarsoni0786:CrudOperation@123@crud-oprn.a34mk4f.mongodb.net/?retryWrites=true&w=majority&appName=crud-oprn`
 mongoose.connect(url).then((conn)=>{
     console.log("Connection stablished");
 });
